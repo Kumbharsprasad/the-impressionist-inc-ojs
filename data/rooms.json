@@ -1,0 +1,28 @@
+[
+  {
+    "id": "af3942f7-7ffe-447c-9110-d97a98a01333",
+    "roomId": "af3942f7-7ffe-447c-9110-d97a98a01333",
+    "title": "impact AI summit",
+    "editorKey": "ed_16f553f8",
+    "authorKey": "au_7a12943c",
+    "reviewerKey": "rev_8de42412",
+    "createdAt": "2026-02-17T09:21:55.248Z",
+    "submissionStatus": "reviewed",
+    "manuscriptContent": "Hi iam sdghhsdkfhgwdksfagdaf",
+    "reviewFeedback": "jksdfhksdjhfsd",
+    "reviewDecision": "accept"
+  },
+  {
+    "id": "9251174f-f853-4196-8ce1-c1db7b2e2240",
+    "roomId": "9251174f-f853-4196-8ce1-c1db7b2e2240",
+    "title": "AI impact summit",
+    "editorKey": "ed_9985632c",
+    "authorKey": "au_845de159",
+    "reviewerKey": "rev_94196d2c",
+    "createdAt": "2026-02-17T12:51:38.816Z",
+    "submissionStatus": "revision_requested",
+    "manuscriptContent": "jhgfiosdkjvsdkvbaskdjfisdfawef\n\nasfgsdihkn",
+    "reviewFeedback": "nbsldjfhlasdjj",
+    "reviewDecision": "reject"
+  }
+]
