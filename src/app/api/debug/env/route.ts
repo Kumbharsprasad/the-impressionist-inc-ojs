@@ -3,11 +3,12 @@ import { NextResponse } from 'next/server'
 export const runtime = 'nodejs'
 
 export async function GET() {
-  const hasDatabaseUrl = !!process.env.DATABASE_URL
+  const dbEnv = process.env.DATABASE_URL
+  const hasDatabaseUrl = !!dbEnv
   let host: string | null = null
-  if (hasDatabaseUrl) {
+  if (dbEnv) {
     try {
-      const parsed = new URL(process.env.DATABASE_URL.replace(/^postgres(ql)?:\/\//, 'http://'))
+      const parsed = new URL(dbEnv.replace(/^postgres(ql)?:\/\//, 'http://'))
       host = parsed.hostname
     } catch {}
   }
